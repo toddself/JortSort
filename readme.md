@@ -18,7 +18,7 @@ import (
 
 func Main() {
   arr := []string{"a", "b", "c", "d"}
-  jortArray = jort.Strings2Sortable(arr)
+  jortArray := jort.Strings2Sortable(arr)
   sorted := jort.JortSort(jortArray)
 
   if sorted {
